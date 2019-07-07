@@ -2,7 +2,7 @@
 	<div class="P-parents page parents ">
 		<div class="content">
 			<div class="parents-crumb">
-				<a href="" class="back-btn"></a>编辑资料
+				<a href="" class="back-btn" @click="$router.go(-1)"></a>编辑资料
 			</div>
 			<div class="p-editor-con">
 				<el-form :label-position="labelPosition" label-width="90px" :model="formLabelAlign">

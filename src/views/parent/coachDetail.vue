@@ -3,7 +3,7 @@
 		<div class="P-parents page">
 			<div class="content">
 				<div class="parents-crumb">
-					<a href="" class="back-btn"></a>
+					<a href="" class="back-btn " @click="$router.go(-1)"></a>
 					课程详情
 				</div>
 				<div class="coach-detail-con">
