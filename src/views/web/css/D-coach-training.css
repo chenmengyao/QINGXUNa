@@ -1,0 +1,1013 @@
+ul,li{ padding:0;margin:0;list-style:none}
+.content{
+    width: 1140px;
+    margin: 0 auto;
+}
+.training-content{
+    margin: 40px 0;
+    padding: 0 50px;
+    background-color: #ffffff;
+}
+.coach-page {
+    padding-top: 80px;
+}
+
+.coach-page .banner {
+    margin: 0 auto;
+    width: 100%;
+    height: 407px;
+    max-width: 1920px;
+}
+
+.coach-page .banner .banner-image {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.coach-page .banner .banner-image>span {
+    font-size: 52px;
+    color: #ffffff;
+}
+
+.coach-page .banner .banner-image>p {
+    font-size: 22px;
+    color: #ffffff;
+}
+
+.coach-page .content {
+    margin: 0 auto;
+    width: 1140px;
+}
+
+.coach-page .navbar {
+    height: 38px;
+    background-color: #f8f8f8;
+    border: solid 1px #eaeaea;
+    border-top: 0;
+}
+
+.coach-page .navbar>a {
+    display: inline-block;
+    width: 140px;
+    height: 38px;
+    line-height: 36px;
+    border-top: 2px solid #c60818;
+    text-align: center;
+    font-size: 14px;
+    color: #333333;
+}
+
+.coach-page .navbar>a.active {
+    background-color: #c60818;
+    color: #fff;
+}
+
+.coach-page .tabs {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.coach-page .tabs-con {
+    display: inline-block;
+}
+
+.coach-page .tabs-con>a {
+    display: inline-block;
+    width: 74px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    font-size: 18px;
+    color: #666666;
+
+    border-radius: 2px;
+}
+
+.coach-page .tabs-con>a.active {
+    background-color: #c60818;
+    color: #fff;
+}
+
+.coach-page .tabs-container {
+    margin-top: 29px;
+}
+
+.coach-page .tabs-con-item {
+    display: inline-block;
+    width: 363px;
+    height: 536px;
+    margin-right: 20px;
+    vertical-align: top;
+    margin-bottom: 32px;
+
+}
+
+.coach-page .tabs-con-item:nth-child(3n) {
+    margin-right: 0;
+}
+
+.coach-page .tabs-con-item .image {
+    overflow: hidden;
+    height: 490px;
+    position: relative;
+}
+
+.coach-page .tabs-con-item .image>img {
+    width: 100%;
+    height: 100%;
+}
+
+.coach-page .tabs-button {
+    display: block;
+    height: 46px;
+    line-height: 46px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    background-color: #c60818;
+}
+
+.coach-page .tabs-button>img {
+    margin-left: 10px;
+}
+
+.coach-page .tabs-item-title {
+    width: 100%;
+    position: absolute;
+    right: 0;
+    bottom: 25px;
+    font-size: 22px;
+    padding: 0 25px;
+    text-align: right;
+    color: #ffffff;
+}
+
+/* 教练进修详情页 */
+.coach-page .training-detail-crumb {
+    width: 1140px;
+    height: 45px;
+    line-height: 45px;
+    background-color: #f5f7fa;
+    border: solid 1px #eaeaea;
+    margin-top: 30px;
+}
+
+.coach-page .training-detail-crumb>a {
+    font-size: 14px;
+    color: #c60818;
+    margin-left: 25px;
+}
+
+.coach-page .training-detail-crumb>a.back-btn {
+    color: #333;
+}
+
+.coach-page .training-detail-crumb>a.back-btn::before {
+    content: " ";
+    display: inline-block;
+    width: 8px;
+    height: 14px;
+    background: url(/images/left-arrow.png) no-repeat;
+    margin-right: 10px;
+    vertical-align: -2px;
+}
+
+.coach-page .training-content {
+    padding: 0 50px;
+    background-color: #ffffff;
+    margin-bottom: 40px;
+    margin-top: 0;
+}
+
+.coach-page .training-content-header {
+    height: 134px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #eee;
+}
+
+.coach-page .training-content-header span {
+    font-size: 18px;
+    color: #333;
+}
+
+.coach-page .training-content-header p {
+    font-size: 14px;
+    color: #999;
+    margin-top: 15px;
+}
+
+.coach-page .training-content-text {
+    padding: 10px;
+    font-size: 14px;
+    color: #666666;
+    line-height: 26px;
+    padding-bottom: 70px;
+}
+
+.coach-page .training-content-text img {
+    max-width: 100%;
+}
+
+.coach-page .training-content-text pre {
+    white-space: pre-line;
+}
+
+/* 培训机构详情页面样式 */
+.coach-page .training-content-header .training-content-line {
+    width: 38px;
+    height: 3px;
+    margin-top: 15px;
+    background-color: #c60818;
+}
+
+.coach-page .training-content-box {
+    margin-top: 15px;
+    margin-bottom: 35px;
+    display: flex;
+}
+
+.coach-page .training-content-box .box-left {
+    width: 130px;
+    font-size: 18px;
+    color: #333333;
+}
+
+.coach-page .training-content-box .box-right {
+    flex: 1;
+}
+
+.training-content-box .box-right .box-right-one {
+    font-size: 14px;
+    line-height: 26px;
+    color: #333333;
+    margin-bottom: 10px
+}
+
+.traning-content-item {
+    margin-right: 33px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.traning-content-item:nth-child(4n) {
+    margin-right: 0;
+}
+
+.traning-content-item>span {
+    display: block;
+    color: #333;
+    font-size: 14px;
+}
+
+.traning-content-item>img {
+    width: 193px;
+    height: 366px;
+    margin-top: 30px;
+}
+
+.traning-content-item-row {
+    flex-wrap: wrap;
+}
+
+/* 关于我们页面的页面样式 */
+.training-content .about-box {
+	padding-top: 50px;
+    padding-bottom: 72px;
+}
+
+.coach-page .about-box>.training-content-header {
+    border-bottom: 0;
+}
+
+.about-box .about-synopsis {
+    width: 266px;
+    height: 180px;
+    background-color: #f4f4f4;
+    border-radius: 6px;
+    margin-right: 120px;
+    padding: 52px 29px 29px;
+}
+.about-synopsis .line{
+    width: 59px;
+	height: 10px;
+	background-color: #517ec2;
+	opacity: 0.3;
+}
+.about-synopsis > p{
+    font-size: 16px;
+	line-height: 30px;
+	color: #666666;
+}
+.about-synopsis > p.title{
+    font-size: 20px;
+	color: #333333;
+}
+.about-box .about-synopsis:nth-child(3n) {
+    margin-right: 0;
+}
+
+.about-box .about-whous {
+    background-color: #f4f4f4;
+    border-radius: 6px;
+    padding: 50px 34px;
+    font-size: 16px;
+    line-height: 30px;
+    color: #666666;
+}
+
+.aboutus-header {
+    height: 123px;
+    border-bottom: 1px solid #f4f4f4;
+    background-color: #fff;
+}
+
+.aboutus-header-left {
+    height: 100%;
+}
+
+.aboutus-header-left>img {
+    width: 42px;
+    height: 42px;
+    margin-right: 20px;
+}
+
+.aboutus-crumb {
+    height: 100%;
+    padding-bottom: 30px;
+    color: #333;
+    font-size: 16px;
+}
+.aboutus-crumb > a{
+    color: #c60818;
+}
+.aboutus-crumb > a:first-child{
+    color: #333;
+}
+.aboutus-header .aboutus-title {
+    font-family: BookmanOldStyle;
+    font-size: 24px;
+    letter-spacing: -1px;
+    color: #333333;
+}
+
+.aboutus-header .aboutus-title span {
+
+    color: #c60818;
+}
+.aboutus-header .aboutus-title > p{
+    font-size: 20px;
+    color: #999;
+}
+/* 新闻信息页面的页面样式 */
+.training-content .information-conter{
+    background-color: #fff;
+}
+
+.information-item{
+    padding: 50px 0;
+    border-bottom: 1px solid #f4f4f4;
+}
+.information-conter .information-item > img{
+    width: 220px;
+    height: 156px;
+    margin-right: 60px;
+}
+.information-memo > span{
+    font-size: 20px;
+	color: #222222;
+}
+.information-memo .desc{
+    margin-top: 45px;
+    font-size: 16px;
+	line-height: 28px;
+	letter-spacing: 1px;
+    color: #999999;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.information-memo .time{
+    margin-top: 16px;
+    font-size: 14px;
+    color: #222222;
+    text-align: right;
+}
+/* 球探入驻页面的页面样式 */
+.stars-settled-content{
+    font-size: 22px;
+    color: #000000;
+    text-align: center;
+    background-color: #ffffff;
+    margin-bottom: 40px;
+    min-height: 575px;
+}
+.stars-settled-content .content-tips{
+    padding-top: 200px;
+}
+.stars-settled-content .content-tips > a{
+    text-decoration: underline;
+    color: #333;
+    margin-left: 3px;
+}
+.stars-settled-content>a{
+    text-decoration: underline;
+}
+/* 青训机构页面的页面样式 */
+.youth-instituttons .training-content-header {
+    height: 55px !important;
+}
+.youth-instituttons .instituttons-container{
+    width: 363px;
+    height: 490px;
+    padding: 30px;
+    background-color: #fff;
+}
+.youth-instituttons .instituttons-title{
+    font-size: 20px;
+    color: #333333;
+    text-align: center;
+}
+.youth-instituttons .instituttons-container img{
+width: 304PX;
+height: 144px;
+margin-top: 30px;
+}
+.youth-instituttons .instituttons-details{
+    width: 100%;
+    height: 115px;
+    font-size: 14px;
+	line-height: 24px;
+    color: #666666;
+    margin-top: 15px;
+    margin-bottom: 55px;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+.instituttons-information{
+    width: 100%;
+    font-size: 14px;
+	line-height: 24px;
+	color: #333333;
+}
+/* 青训机构详情页面的页面样式 */
+.instituttons-details  .details-content{
+    background-color: #fff;
+    padding-bottom: 70px;
+    margin-bottom: 40px;
+}
+.instituttons-details .training-content-header {
+    height: 125px !important;
+    border-bottom:0 !important;
+}
+.instituttons-details .brief-introduction{
+    padding: 70px 50px 0 50px;
+}
+.instituttons-details .brief-title{
+    font-size: 20px;
+    color: #333333;
+    margin-bottom: 35px;
+}
+.instituttons-details  .brief-detail{
+    widows: 100%;
+    font-size: 14px;
+	line-height: 26px;
+    color: #666666;
+}
+.instituttons-details .brief-address{
+    width: 250px;
+    margin-left: 750px;
+    margin-top: 70px;
+    font-size: 14px;
+	line-height: 24px;
+	color: #333333;
+}
+.instituttons-details .wheel-planting{
+    padding-right: 0 !important;
+}
+.instituttons-details  .wheel-content{
+    width: 100%;
+    height: 208px;
+    position: relative;
+    overflow: hidden;
+}
+.wheel-content ul{
+    width: 1500px;
+    height: 208px;
+}
+.wheel-content ul a{
+    display: block;
+    width: 268px;
+    height: 208px;
+    float: left;
+    margin-right: 24px;
+}
+.wheel-content .wheel-content-left{
+    width: 30px;
+	height: 74px;
+	background-color: #000000;
+    opacity: 0.4;
+    position: absolute;
+    left: 27px;
+    top: 65px;
+    cursor: pointer;
+}
+
+.wheel-content .wheel-content-left:after{
+    content: " ";
+    display: block;
+    width: 10px;
+    height: 18px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: url(/images/left-arrow-white.png) 0 0 no-repeat;
+    background-size:contain;
+}
+.wheel-content .wheel-content-right{
+    width: 30px;
+	height: 74px;
+	background-color: #000000;
+    opacity: 0.4;
+    position: absolute;
+    right: 100px;
+    top: 65px;
+    cursor: pointer;
+}
+.wheel-content .wheel-content-right:after{
+    content: " ";
+    display: block;
+    width: 10px;
+    height: 18px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: url(/images/right-arrow-white.png) 0 0 no-repeat;
+    background-size:contain;
+}
+.wheel-content .wheel-content-left:hover,.wheel-content .wheel-content-right:hover{
+    opacity: 0.6;
+}
+/* .wheel-content .platform-video{
+    width: 860px !important;
+    height: 482px !important;
+} */
+.details-content .organization-content{
+    width: 100%;
+    font-size: 14px;
+	line-height: 24px;
+	color: #333333;
+}
+/* 在线涨球页面样式 */
+.coach-page .onling-crumb {
+    margin-top: 0 !important;
+}
+/* 商务页面的页面样式 */
+.busines-cooperation .message-map{
+    width: 100%;
+    height: 468px;
+    padding-top: 50px
+
+}
+.busines-cooperation .busines-map{
+    width: 550px;
+	height: 368px;
+    border: solid 1px #336bbd;
+    
+}
+.busines-cooperation .busines-content{
+    padding-left: 72px;
+}
+.busines-cooperation .busines-name{
+    font-size: 24px;
+	color: #333333;
+}
+.busines-cooperation .micro-blog{
+    width: 100%;
+    height: 364px;
+    padding: 112px 0 94px 0;
+
+}
+.busines-cooperation .micro-code{
+    width: 550px;
+	height: 158px;
+}
+.busines-cooperation .micro-code img{
+    width: 155px;
+    height: 158px;
+    margin-right: 40px;
+}
+.busines-cooperation .micro-name{
+    font-size: 20px;
+    color: #333333;
+    margin-top: 27px;
+    margin-bottom: 36px;
+}
+.busines-cooperation .micro-synopsis{
+    font-size: 16px;
+	line-height: 26px;
+	color: #999999;
+}
+.busines-con{
+    padding-top: 10px;
+}
+.busines-con .busines-info{
+    margin-top: 25px;
+}
+.busines-con .busines-info > img{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.busines-con .busines-memo > p{
+    font-size: 14px;
+    color: #333333;
+    margin-bottom: 10px;
+    line-height: 20px;
+}
+.busines-con .busines-memo > p.strong{
+    font-family: MicrosoftYaHei-Bold;
+    font-weight: bold;
+    font-size: 20px;
+	letter-spacing: 1px;
+	color: #336bbd;
+}
+/* 赛事信息页面样式 */
+.event-information .training-content-header {
+    height: 55px !important;
+}
+.event-information .informatton-particulars{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 35px;
+    padding: 0 20px;
+    color: #ffffff;
+}
+.event-information .informatton-title{
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 31px;
+}
+.event-information  .informatton-details{
+    font-size: 16px;
+    color: #ffffff;
+    margin-top: 16px;
+}
+/* 赛事信息详情页面的页面样式 */
+.coach-page .event-detail .training-content-header {
+    border-bottom: 0 !important;
+}
+.event-detail{
+    background-color: #fff;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    margin-bottom: 30px !important;
+}
+.coach-page .tabs
+.event-detail .training-content-header {
+    height: 55px !important;
+    position: relative;
+}
+.event-detail .look-team{
+    font-size: 16px;
+    color: #2d64b3;
+    position: absolute;
+    right: 210px;
+    height: 20px;
+}
+.event-detail .tabs-container{
+    width: 100%;
+    height: 350px;
+}
+.event-detail .tabs-container img{
+    width: 260px;
+    height: 350px;
+    margin: 0 71px 0 160px;
+}
+.event-detail .headline-title{
+    font-size: 22px;
+    color: #000000;
+    margin: 47px 0 80px 0;
+}
+.event-detail .headline-detail{
+    font-size: 16px;
+    color: #666666;
+    margin-top: 20px;
+}
+.event-detail .headline-button{
+    display: block;
+    width: 206px;
+    height: 38px;
+    background-color: #c60818;
+	border-radius: 4px;
+    line-height: 38px;
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+    margin: 50px 0 0 8px;
+    
+}
+/* 小将之家页面样式 */
+.family-teenagers .navbar{
+    position: relative;
+}
+.family-teenagers .navigation-information{
+    width: 340px;
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 14px;
+	color: #666666;
+}
+.family-teenagers .my-post{
+    display: inline-block;
+    width: 90px;
+    height: 38px;
+    line-height: 38px;
+    margin-right: 6px;
+}
+.family-teenagers .navigation-information img{
+    width: 17px;
+    height: 16px;
+    margin-right: 8px;
+    vertical-align: -3px;
+}
+.family-teenagers .my-tidings{
+    display: inline-block;
+    width: 60px;
+    height: 38px;
+}
+.family-teenagers .posting-button{
+    display: inline-block;
+    width: 57px;
+    height: 22px;
+    text-align: center;
+    line-height: 22px;
+	background-color: #c60818;
+    border-radius: 2px;
+    font-size: 12px;
+    color: #ffffff;
+    margin: 0 25px;
+}
+.teenager-lists{
+    background-color: #fff;
+    padding-bottom: 50px;
+    margin-bottom: 40px;
+}
+.teenager-item{
+    padding: 20px;
+}
+.teenager-item .num-wrap{
+    margin-right: 25px;
+}
+.teenager-item .num-wrap > span{
+    background-color: #f8f8f8;
+    border: 1px solid #eaeaea;
+    line-height: 20px;
+    padding: 0 7px;
+    font-size: 12px;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0px;
+	color: #999999;
+}
+.teenager-item .memo-wrap > a{
+    font-size: 14px;
+	color: #2d64b3;
+}
+.teenager-item .memo-wrap > .desc{
+    font-size: 12px;
+    color: #666666;
+    margin-top: 13px;
+}
+.teenager-item .memo-wrap > .image{
+    width: 170px;
+    height: 120px;
+    margin-top: 30px;
+}
+.teenager-item .user-wrap{
+    padding: 0 10px;
+    font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0px;
+	color: #999999;
+}
+.teenager-item .user-wrap > span{
+    display: inline-block;
+}
+.teenager-item .user-wrap > span:before{
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+    content: " ";
+    display: inline-block;
+    background: url(/images/email.png) no-repeat;
+    background-size: contain;
+    vertical-align: -3px;
+}
+.teenager-item .time-wrap{
+    padding: 0 10px;
+    font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0px;
+    color: #666666;
+    margin-left: 100px;
+}
+/* 帖子详情的页面样式 */
+.teenagers-datail .memo-wrap>img{
+    width: 504px !important;
+	height: 400px !important;
+}
+.teenagers-datail .memo-wrap{
+    padding: 30px 40px;
+    font-size: 14px;
+	color: #333333;
+}
+.particulars-title{
+    width: 100%;
+    height: 57px;
+    line-height: 56px;
+    padding-left: 24px;
+    border-bottom: solid 1px #bbbdbf;
+    font-size: 16px;
+	color: #333333;
+}
+.teenagers-datail .particulars-con{
+    width: 775px;
+}
+.teenagers-datail .personage{
+    width: 130px;
+    background-color: #fbfbfd;
+    position: relative;
+}
+.teenagers-datail .personage-img{
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.teenagers-datail .teenager-item {
+    padding: 0;
+}
+.teenagers-datail  .particulars-time{
+    margin-top: 20px;
+    text-align: right;
+}
+.teenagers-datail .particularss-time{
+    margin-top: 80px;
+}
+.teenagers-datail .particulars-btn{
+    color: #2d64b3;
+    margin-left: 25px;
+}
+.teenagers-datail .Head-portrait{
+    width: 86px;
+	height: 86px;
+    border: solid 1px #bbbdbf;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.teenagers-datail .Head-portrait img{
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+}
+.teenagers-datail .personage-name{
+    width: 100%;
+    font-size: 14px;
+    color: #2d64b3;
+    margin: 15px 0;
+    text-align: center;
+}
+.teenagers-datail .personage-team{
+    width: 100px;
+	height: 28px;
+	background-color: #ffffff;
+	border-radius: 2px;
+    border: solid 1px #eaeaea;
+    margin: 0 auto;
+    font-size: 12px;
+    color: #333333;
+    line-height: 26px;
+    text-align: center;
+
+}
+/* 发布帖子的页面样式 */
+.particulars-title img{
+    width: 21px;
+    height: 21px;
+    vertical-align: -4px;
+    margin-right: 16px;
+}
+.post-content .teenager-lists{
+    background-color: #fcfcfc;
+}
+.post-content .post-con{
+    width: 100%;
+    border-bottom: 1px solid #f8f8f8;
+    padding: 28px 30px;
+    
+}
+.post-content .post-time{
+	font-size: 14px;
+	color: #666666;
+}
+.post-content .post-person{
+    color: #2d64b3;
+}
+.post-content .person-con{
+    font-size: 14px;
+    color: #333333;
+}
+.post-content .person-conter p{
+    font-size: 12px;
+    color: #333333;
+    margin-top: 18px;
+}
+.reply{
+    margin-top: 10px;
+}
+.reply-con{
+    width: 769px;
+    background-color: #f5f7fa;
+    border: solid 1px #eaeaea;
+    padding: 30px;
+}
+.reply-user .image{
+    width: 36px;
+	height: 36px;
+    border: solid 1px #bbbdbf;
+    margin-right: 10px;
+}
+.reply-user .image > img{
+    width: 32px;
+    height: 32px;
+    margin: 1px;
+}
+.reply-user-memo{
+    font-size: 14px;
+	color: #333;
+}
+.reply-user-memo > span{
+    color: #2d64b3;
+}
+.reply-time{
+    text-align: right;
+    color: #666;
+    font-size: 14px;
+    margin-top: 15px;
+}
+.reply-time > span{
+    margin-left: 20px;
+    color: #2d64b3;
+    cursor: pointer;
+}
+.reply-text{
+	height: 88px;
+	background-color: #ffffff;
+    border: solid 1px #eaeaea;
+    padding: 15px 20px;
+    position: relative;
+    margin-top: 10px;
+}
+.reply-text-input{
+    border: 0;
+    resize: none;
+    padding: 5px;
+}
+.reply-input-len{
+    position: absolute;
+    right: 25px;
+    top: 20px;
+    font-size: 12px;
+    color: #333;
+}
+.reply-text-title{
+    font-size: 14px;
+	color: #333333;
+}
+.reply-item .reply-item{
+    border: 0;
+    padding: 30px 0 0 30px;
+}

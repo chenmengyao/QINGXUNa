@@ -1,0 +1,395 @@
+.coach-page {
+    padding-top: 80px;
+}
+
+.coach-page .banner {
+    margin: 0 auto;
+    width: 100%;
+    height: 407px;
+    max-width: 1920px;
+}
+
+.coach-page .banner .banner-image {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.coach-page .banner .banner-image>span {
+    font-size: 52px;
+    color: #ffffff;
+}
+
+.coach-page .banner .banner-image>p {
+    font-size: 22px;
+    color: #ffffff;
+}
+
+.coach-page .content {
+    margin: 0 auto;
+    width: 1140px;
+}
+
+.coach-page .navbar {
+    height: 38px;
+    background-color: #f8f8f8;
+    border: solid 1px #eaeaea;
+    border-top: 0;
+}
+
+.coach-page .navbar>a {
+    display: inline-block;
+    width: 140px;
+    height: 38px;
+    line-height: 36px;
+    border-top: 2px solid #c60818;
+    text-align: center;
+    font-size: 14px;
+    color: #333333;
+}
+
+.coach-page .navbar>a.active {
+    background-color: #c60818;
+    color: #fff;
+}
+
+.coach-page .tabs {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.coach-page .tabs-con {
+    display: inline-block;
+}
+
+.coach-page .tabs-con>a {
+    display: inline-block;
+    width: 74px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    font-size: 18px;
+    color: #666666;
+
+    border-radius: 2px;
+}
+
+.coach-page .tabs-con>a.active {
+    background-color: #c60818;
+    color: #fff;
+}
+
+.coach-page .tabs-container {
+    margin-top: 29px;
+}
+
+.coach-page .tabs-con-item {
+    display: inline-block;
+    width: 363px;
+    height: 536px;
+    margin-right: 20px;
+    vertical-align: top;
+    margin-bottom: 32px;
+
+}
+
+.coach-page .tabs-con-item:nth-child(3n) {
+    margin-right: 0;
+}
+
+.coach-page .tabs-con-item .image {
+    overflow: hidden;
+    height: 490px;
+    position: relative;
+}
+
+.coach-page .tabs-con-item .image>img {
+    width: 100%;
+    height: 100%;
+}
+
+.coach-page .tabs-button {
+    display: block;
+    height: 46px;
+    line-height: 46px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    background-color: #c60818;
+}
+
+.coach-page .tabs-button>img {
+    margin-left: 10px;
+}
+
+.coach-page .tabs-item-title {
+    width: 100%;
+    position: absolute;
+    right: 0;
+    bottom: 25px;
+    font-size: 22px;
+    padding: 0 25px;
+    text-align: right;
+    color: #ffffff;
+}
+
+/* 教练进修详情页 */
+.coach-page .training-detail-crumb {
+    width: 1140px;
+    height: 45px;
+    line-height: 45px;
+    background-color: #f5f7fa;
+    border: solid 1px #eaeaea;
+    margin-top: 30px;
+}
+
+.coach-page .training-detail-crumb>a {
+    font-size: 14px;
+    color: #c60818;
+    margin-left: 25px;
+}
+
+.coach-page .training-detail-crumb>a.back-btn {
+    color: #333;
+}
+
+/* .coach-page .training-detail-crumb>a.back-btn::before {
+    content: " ";
+    display: inline-block;
+    width: 8px;
+    height: 14px;
+    background: url(/images/left-arrow.png) no-repeat;
+    margin-right: 10px;
+    vertical-align: -2px;
+} */
+
+.coach-page .training-content {
+    padding: 0 50px;
+    background-color: #ffffff;
+    margin-bottom: 40px;
+}
+
+.coach-page .training-content-header {
+    height: 134px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #eee;
+}
+
+.coach-page .training-content-header span {
+    font-size: 18px;
+    color: #333;
+}
+
+.coach-page .training-content-header p {
+    font-size: 14px;
+    color: #999;
+    margin-top: 15px;
+}
+
+.coach-page .training-content-text {
+    padding: 10px;
+    font-size: 14px;
+    color: #666666;
+    line-height: 26px;
+    padding-bottom: 70px;
+}
+
+.coach-page .training-content-text img {
+    max-width: 100%;
+}
+
+.coach-page .training-content-text pre {
+    white-space: pre-line;
+}
+
+/* 培训机构详情页面样式 */
+.coach-page .training-content-header .training-content-line {
+    width: 38px;
+    height: 3px;
+    margin-top: 15px;
+    background-color: #c60818;
+}
+
+.coach-page .training-content-box {
+    margin-top: 15px;
+    margin-bottom: 35px;
+    display: flex;
+}
+
+.coach-page .training-content-box .box-left {
+    width: 130px;
+    font-size: 18px;
+    color: #333333;
+}
+
+.coach-page .training-content-box .box-right {
+    flex: 1;
+}
+
+.training-content-box .box-right .box-right-one {
+    font-size: 14px;
+    line-height: 26px;
+    color: #333333;
+    margin-bottom: 10px
+}
+
+.traning-content-item {
+    margin-right: 33px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.traning-content-item:nth-child(4n) {
+    margin-right: 0;
+}
+
+.traning-content-item>span {
+    display: block;
+    color: #333;
+    font-size: 14px;
+}
+
+.traning-content-item>img {
+    width: 193px;
+    height: 366px;
+    margin-top: 30px;
+}
+
+.traning-content-item-row {
+    flex-wrap: wrap;
+}
+
+/* 关于我们页面的页面样式 */
+.training-content .about-box {
+    padding-bottom: 72px;
+}
+
+.coach-page .about-box>.training-content-header {
+    border-bottom: 0;
+}
+
+.about-box .about-synopsis {
+    width: 266px;
+    height: 180px;
+    background-color: #f4f4f4;
+    border-radius: 6px;
+    margin-right: 120px;
+    padding: 52px 29px 29px;
+}
+.about-synopsis .line{
+    width: 59px;
+	height: 10px;
+	background-color: #517ec2;
+	opacity: 0.3;
+}
+.about-synopsis > p{
+    font-size: 16px;
+	line-height: 30px;
+	color: #666666;
+}
+.about-synopsis > p.title{
+    font-size: 20px;
+	color: #333333;
+}
+.about-box .about-synopsis:nth-child(3n) {
+    margin-right: 0;
+}
+
+.about-box .about-whous {
+    background-color: #f4f4f4;
+    border-radius: 6px;
+    padding: 50px 34px;
+    font-size: 16px;
+    line-height: 30px;
+    color: #666666;
+}
+
+.aboutus-header {
+    height: 123px;
+    border-bottom: 1px solid #f4f4f4;
+    background-color: #fff;
+}
+
+.aboutus-header-left {
+    height: 100%;
+}
+
+.aboutus-header-left>img {
+    width: 42px;
+    height: 42px;
+    margin-right: 20px;
+}
+
+.aboutus-crumb {
+    height: 100%;
+    padding-bottom: 30px;
+    color: #333;
+    font-size: 16px;
+}
+.aboutus-crumb > a{
+    color: #c60818;
+}
+.aboutus-crumb > a:first-child{
+    color: #333;
+}
+.aboutus-header .aboutus-title {
+    font-family: BookmanOldStyle;
+    font-size: 24px;
+    letter-spacing: -1px;
+    color: #333333;
+}
+
+.aboutus-header .aboutus-title span {
+
+    color: #c60818;
+}
+.aboutus-header .aboutus-title > p{
+    font-size: 20px;
+    color: #999;
+}
+/* 新闻信息页面的页面样式 */
+.training-content .information-conter{
+    padding: 0 50px 70px 0;
+}
+
+.information-item{
+    padding: 50px 0;
+    border-bottom: 1px solid #f4f4f4;
+}
+.information-conter .information-item > img{
+    width: 220px;
+    height: 156px;
+    margin-right: 60px;
+}
+.information-memo > span{
+    font-size: 20px;
+	color: #222222;
+}
+.information-memo .desc{
+    margin-top: 45px;
+    font-size: 16px;
+	line-height: 28px;
+	letter-spacing: 1px;
+    color: #999999;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.information-memo .time{
+    margin-top: 16px;
+    font-size: 14px;
+    color: #222222;
+    text-align: right;
+}

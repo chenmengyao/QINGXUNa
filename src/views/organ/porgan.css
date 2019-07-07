@@ -1,0 +1,460 @@
+/*头部下箭头*/
+input,button,select{
+	outline: none;
+	border: none;
+}
+.paddingtop20{
+    padding-top:20px;
+}
+.header .navbar-item>a.coachdown{
+	position: relative;
+}
+.header .navbar-item>a.coachdown::before{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -6px;
+    width: 12px;
+	height: 7px;
+    background: url(/images/coachd.png) no-repeat;
+    margin-top: 10px;
+}
+.organ-page{
+	padding-top: 80px;
+}
+.organ-page .content {
+    margin: 0 auto;
+    width: 1140px;
+    background-color: #fff;
+    margin-bottom: 40px;
+    margin-top: 12px;
+}
+.organ-page .organ-crumb {
+    width: 1140px;
+    height: 45px;
+    line-height: 45px;
+    background-color: #f5f7fa;
+    border: solid 1px #eaeaea;
+    text-indent: 20px;
+    font-size: 14px;
+    color: #333333;
+}
+.organ-page .organ-crumb .organ-crumb-right {
+    float: right;
+    margin-right: 36px;
+}
+.organ-crumb .organ-crumb-right button {
+    border: none;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    height: 28px;
+    line-height: 28px;
+    padding: 0 10px;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    text-indent: 0;
+    cursor: pointer;
+    margin: 0 5px;
+}
+.organ-crumb .organ-crumb-right button.organ-blue {
+    background: #2D64B3;
+}
+.organ-crumb .organ-crumb-right button.organ-red {
+    background: #C60818;
+}
+.organ-page .organ-crumb .back-btn{
+    content: " ";
+    display: inline-block;
+    width: 8px;
+    height: 14px;
+    background: url(/images/left-arrow.png) no-repeat;
+    margin-right: 10px;
+    vertical-align: -2px;
+}
+
+.organ-page .organ-detail{
+	padding: 50px 0 110px 53px;
+}
+.organ-page .organ-detail.corgannopaddingb{
+    padding-bottom:0;
+}
+.organ-page .organ-detail .title {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 35px;
+}
+.organ-page .organ-detail .organ-data {
+    margin-bottom: 44px;
+}
+.organ-page .organ-detail .organ-con-center{
+	flex: 1;
+    display: flex;
+    display: -webkit-flex;
+}
+.organ-page .organ-detail .organ-con-center-item{
+    margin-left: 50px;
+}
+.organ-page .organ-detail .organ-con-center-item p {
+    font-size: 14px;
+    line-height: 40px;
+}
+.organ-page .organ-detail .organ-con-center-item span {
+    display: inline-block;
+    width: 86px;
+    margin-right: 27px;
+    text-align: right;
+}
+.organ-page .organ-book{
+	margin-bottom: 40px;
+}
+.organ-page .organ-book .organ-book-item {
+    width: 250px;
+    height: 160px;
+    margin-right: 40px;
+}
+.organ-page .hasbuy {
+    text-align: center;
+    padding: 0 0 60px 0;
+    position: relative;
+    width: 100%;
+}
+.organ-page .hasbuy .hasbut-item {
+    text-align: center;
+    margin-right: 24px;
+    font-size: 14px;
+    color: #333;
+}
+
+
+.organ-page .hasbuy .hasbuy-prev {
+    position: absolute;
+    left: 20px;
+    top: 90px;
+    width: 30px;
+    height: 74px;
+    cursor: pointer;
+}
+.organ-page .hasbuy .hasbuy-next {
+    position: absolute;
+    right: 20px;
+    top: 90px;
+    width: 30px;
+    height: 74px;
+    cursor: pointer;
+}
+/*我的简介*/
+.organ-page .banner {
+    margin: 0 auto;
+    width: 100%;
+    height: 407px;
+    max-width: 1920px;
+}
+.organ-page .banner .banner-image{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.organ-page .content.organ-content{
+	margin-top: 40px;
+	padding-bottom: 100px;
+}
+.organ-page .organ-group-con .organ-detail-title{
+    margin-top: 38px;
+    margin-bottom: 62px;
+    text-align: center;
+    font-size: 20px;
+}
+.organ-page .brief-introduction{
+	padding: 70px 50px 0 50px;
+}
+.organ-page .brief-title {
+    font-size: 20px;
+    color: #333333;
+    margin-bottom: 35px;
+}
+.organ-page .brief-detail {
+    width: 100%;
+    font-size: 14px;
+    line-height: 26px;
+    color: #666666;
+}
+.organ-page .brief-address {
+    width: 250px;
+    margin-left: 750px;
+    margin-top: 70px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #333333;
+}
+.organ-page .instituttons-details .brief-title {
+    font-size: 20px;
+    color: #333333;
+    margin-bottom: 35px;
+}
+.organ-page .instituttons-details .wheel-content {
+    width: 100%;
+    height: 208px;
+    position: relative;
+    overflow: hidden;
+}
+.organ-page .wheel-content ul {
+    width: 1500px;
+    height: 208px;
+}
+.organ-page .wheel-content ul a {
+    display: block;
+    width: 268px;
+    height: 208px;
+    float: left;
+    margin-right: 24px;
+}
+ .wheel-content {
+    width: 100%;
+    height: 208px;
+    position: relative;
+    overflow: hidden;
+}
+.organ-page  .wheel-planting {
+    padding-right: 0 !important;
+}
+.organ-page .wheel-content .wheel-content-left {
+    width: 30px;
+    height: 74px;
+    background-color: #000000;
+    opacity: 0.4;
+    position: absolute;
+    left: 27px;
+    top: 65px;
+    cursor: pointer;
+}
+.wheel-content .wheel-content-left:after {
+    content: " ";
+    display: block;
+    width: 10px;
+    height: 18px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: url(/images/left-arrow-white.png) 0 0 no-repeat;
+    background-size: contain;
+}
+.organ-page .wheel-content .wheel-content-right {
+    width: 30px;
+    height: 74px;
+    background-color: #000000;
+    opacity: 0.4;
+    position: absolute;
+    right: 100px;
+    top: 65px;
+    cursor: pointer;
+}
+.wheel-content .wheel-content-right:after {
+    content: " ";
+    display: block;
+    width: 10px;
+    height: 18px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: url(/images/right-arrow-white.png) 0 0 no-repeat;
+    background-size: contain;
+}
+.platform-video {
+    position: relative;
+    margin: 0 auto;
+    width: 656px;
+    height: 376px;
+}
+.platform-video .play {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 76px;
+    height: 76px;
+    cursor: pointer;
+}
+/*账号设置*/
+.setform{
+	margin-right: 604px;
+}
+.setform span{
+	width: 70px;
+	font-size: 14px;
+	color: #333;
+	text-align: right;
+	line-height: 28px;
+	margin-right: 20px;
+}
+.setform input{
+	width: 100%;
+	height: 28px;
+	line-height: 28px;
+	border: 1px solid #D8D8D8;
+	font-size: 12px;
+	color: #999999;
+	text-indent: 12px;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+}
+.setform .setformdiv{
+	margin-bottom: 20px;
+}
+.setbtn{
+	text-align: center;
+	margin-top: 178px;
+}
+
+.setbtn button{
+	width: 68px;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	font-size: 14px;
+	margin:  0 21px;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	cursor: pointer;
+}
+.setbtn button.save{
+	background: #C60818;
+	color: #fff;
+}
+.setbtn button.cacel{
+	background: none;
+	border: 1px solid #EEEEEE;
+	color: #999;
+}
+.auditdetail-btn{
+    text-align: center;
+    padding-top: 100px;
+}
+.auditdetail-btn button{
+    width: 80px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    margin: 0 10px;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+}
+.auditdetail-btn button.pass {
+    background: #2D64B3;
+}
+.auditdetail-btn button.del {
+    background: #C60818;
+}
+/*审核列表*/
+.organlist-tab .tabs {
+    text-align: center;
+    margin-top: 20px;
+}
+.organlist-tab .tabs-con {
+    display: inline-block;
+}
+
+.organlist-tab .tabs-con>a {
+    display: inline-block;
+    width: 74px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    font-size: 16px;
+    color: #333;
+    border-radius: 2px;
+}
+.organlist-tab .tabs-con>a.active {
+    background-color: #C60818;
+    color: #fff;
+}
+
+.organ_pagination{
+    padding-bottom:38px;
+    margin-top:56px;
+    margin-right:35px;
+    display:flex;
+    display:-webkit-flex;
+    justify-content:flex-end;
+    -webkit-justify-content:flex-end;
+}
+.el-pagination.is-background .el-pager li:not(.disabled).active{
+    background-color:#C60818;
+}
+.organ-group-con .el-button--text{
+    color:#333;
+    font-size:14px;
+}
+.el-table__header .el-table tr,.el-table__header .el-table th{
+    background-color:#F7F7F7;
+}
+.dowmzj{
+    display:inline-block;
+    padding-right:10px;
+    text-indent: 0;
+    height:28px;
+    line-height:28px;
+    width:150px;
+    margin-left:20px;
+
+}
+.dowmzj .el-dropdown{
+    display:block;
+}
+.dowmzj input{
+    font-size:12px;
+}
+.dowmzj .el-input__inner{
+    height:28px;
+    line-height:28px;
+    padding:0 10px;
+}
+.dowmzj .el-input__icon{
+    line-height:28px;
+}
+.organlist-tab .tabs .el-tabs__nav{
+    float:none;
+    height:28px;
+    line-height:28px;
+}
+.organlist-tab .tabs .el-tabs__item.is-active{
+    background-color:#C60818;
+    color:#fff;
+    border-radius:2px;
+    -moz-border-radius:2px;
+}
+.organlist-tab .tabs .el-tabs__nav-wrap::after,.organlist-tab .tabs .el-tabs__active-bar{
+    height:0px;
+}
+.organlist-tab .tabs .el-tabs--top .el-tabs__item.is-top:last-child,.organlist-tab .tabs .el-tabs--top .el-tabs__item.is-top:nth-child(2){
+    padding-right:0;
+    padding-left:0;
+    margin:0 10px;
+    padding:0 10px;
+}
+.organlist-tab .tabs .el-tabs__item{
+    height:28px;
+    line-height:28px;
+    padding:0;
+    padding:0 20px;
+}
+.el-tabs__nav-wrap,.el-tabs__nav-scroll{
+    overflow: visible;
+}
+
+
+
+
+
