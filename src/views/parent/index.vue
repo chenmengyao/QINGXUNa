@@ -176,6 +176,7 @@
 						const { code, data, data:{list, total}} = res
 						if (code === 200 && data) {
 							this.sugList = list
+							console.log(list,2222221)
 							this.suggestionsData.total = Number(total)
 						}
 					})

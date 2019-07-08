@@ -215,11 +215,12 @@ export default {
     },
 
     fetchList () {
-      this.searchForm.id = Number(this.userStatus.id)
+      this.searchForm.id = Number(this.userStatus.statusId)
 
       this.fetchKechengList(this.searchForm).then(res => {
         const { code, data: {list, total}} = res
         if (code === 200) {
+          console.log(list,11111)
           this.tableList = list || []
           this.total = Number(total)
         }
